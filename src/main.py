@@ -23,8 +23,7 @@ def make_request(question_input: str):
     return response
 
 
-st.header("Streamlit + OpenAI ChatGPT API")
-
+st.header("Steini Super-Coder + OpenAI ChatGPT API")
 st.markdown("""---""")
 
 question_input = st.text_input("Enter question")
